@@ -1,0 +1,98 @@
+.box-conteiner{
+    position: relative;
+    width: 540px;
+    height: 600px;
+    margin: auto;
+}
+.container{
+    position: absolute;
+    width: 417px;
+    height: 230px;
+    margin: auto;
+    overflow: hidden;
+    top: 230px;
+    left: 63px;
+    
+}
+
+.fondo{
+    position: absolute;
+    width: 416px;
+    height: 222px;
+    background-image: url(../imagen/fondo.png);
+    top: 229.5px;
+    left: 64px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+
+.marco{
+    position: absolute;
+    width: 639px;
+    height: 628px;
+    background-image: url(../imagen/marco.png);
+    top: -35px;
+    left: -50px; 
+}
+.score{
+   position: absolute;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    top: 145px;
+    left: 255px
+}
+.duck{
+    width: 71px;
+    height: 64px;
+    background: url(../imagen/pato-01.png);
+    float: left;
+    margin: 0 20px;
+}
+.top-ducks{
+    position: absolute;
+    top: 61px;
+    left: -1240px;
+   
+}
+.bottom-ducks{
+    position: absolute;
+    top: 127px;
+    left: -1190px;
+}
+.aguatop{
+    position: absolute;
+    width: 416px;
+    height: 99px;
+    background-image: url(../imagen/agua2.png);
+    top: 100px;
+    left: 1px;
+}
+
+.aguabotton{
+    position: absolute;
+    width: 416px;
+    height: 55px;
+    background-image: url(../imagen/agua1.png);
+    top: 166px;
+    left: 1px;
+    }
+    
+.path1{
+    position: absolute;
+    top: 290px;
+    width: 496px;
+    left: 319px;
+    transform: rotate(180deg);
+    display: none;
+    
+}
+.path2{
+    position: absolute;
+    top: 369px;
+    width: 496px;
+    left: 319px;
+    transform: rotate(180deg);
+    display: none;
+}

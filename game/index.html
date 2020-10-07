@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--****************************head*********************************-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+ <!--****************************Contenedores*********************************-->
+<body>
+    <div class="box-conteiner">
+        <div class="marco"></div>
+        <div class="score"></div>
+        <div class="fondo"></div>
+        <div class="container">
+
+            <div class="top-ducks" > </div>
+            <div class="aguatop" ></div>
+            <div class="bottom-ducks"> </div>
+            <div class="aguabotton "  ></div>
+            
+           
+        </div>
+    </div>
+ <!--*************************************Vector agua top****************************************************-->
+    
+    <svg class="path1" id="duck-path" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 418.36 24.4">
+        <defs>
+            <style>
+                .cls-1 {
+                    isolation: isolate;
+                }
+
+                .cls-2 {
+                    fill: none;
+                    stroke: none;
+                    stroke-miterlimit: 10;
+                    opacity: 0.6;
+                    mix-blend-mode: multiply;
+                }
+            </style>
+        </defs>
+        <g class="cls-1">
+            <g id="top">
+                <path id="path" class="cls-2"
+                    d="M529.57,341.44c-15.85-12.64-48.41-15.33-71.2-8.56C447,336.27,436.31,343.72,424.14,344c-12.82.31-24.84-6-36.39-10.75-12.16-5-24.77-9.61-38.13-7.18s-25.78,8-38.36,12.84c-10.88,4.17-22.24,6.27-33.87,4.62-13.1-1.88-25.31-7.33-37.76-11.6s-25.92-8.6-39.35-8.07c-11.69.46-22.8,4.11-33.54,8.55-16.17,6.68-37,18.44-55.09,13.72"
+                    transform="translate(-111.52 -323.32)" />
+            </g>
+        </g>
+    </svg>
+ <!--****************************************Vector agua bottom*************************************************-->
+    
+    <svg class="path2" id="duck-path2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416.84 20.56">
+        <defs>
+            <style>
+                .cls-1 {
+                    isolation: isolate;
+                }
+
+                .cls-2 {
+                    fill: none;
+                    stroke: #000;
+                    stroke-miterlimit: 10;
+                    opacity: 0.6;
+                    mix-blend-mode: multiply;
+                }
+            </style>
+        </defs>
+        <g class="cls-1">
+            <g id="abajo">
+                <path id="path" class="cls-2"
+                    d="M536.22,461.74c-5.6-3.5-11.54-6.21-18.63-5.88-12.83.56-23.79,7.1-35.63,11.21-5.77,2-11.88,3.51-18,3.09a64.81,64.81,0,0,1-18.55-4.56c-6.37-2.45-12.65-4.91-19.41-6.06a75.21,75.21,0,0,0-19.42-.77,138.38,138.38,0,0,0-19.19,3.28c-6.62,1.57-13.17,3.59-19.86,4.79-12.44,2.25-24.73,1.09-36.92-1.92-13.29-3.28-26.33-8.6-40.17-8.83s-27.17,3.07-39.78,8.4c-11.69,4.91-23.94,10-36.73,10.81-13.27.85-26-4.09-38.36-8.19-11.36-3.76-23-7.2-35.08-7a53.44,53.44,0,0,0-20.61,4.3"
+                    transform="translate(-119.65 -455.34)" />
+            </g>
+        </g>
+    </svg>
+    <!--*****************************************************************************************-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js"></script>
+    <!--llamar java-->
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
