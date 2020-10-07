@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+     <title>Front-end Developer</title>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="./css/style.css">
+ </head>
+<!--lab1-->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.1.1/validator.min.js"></script>
+ <!--fin lab1-->
+ <body>
+     <!-- header -->
+     <header>
+         <nav class="top-bar">
+             <span class="mob-menu fas fa-bars" onclick="openMobileMenu()">
+
+             </span>
+             <a class="logo" href="#">
+                 <img src="#" alt="Logo">
+            </a>
+             
+            <ul class="top-nav">
+                <span class="mob-close fas fa-window-close" onclick="closeMobileMenu()"></span>
+
+                <li class="top-nav-item"><a class="top-nav-link" href="#"></a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#"></a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#"></a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#"></a></li>
+                <li class="top-nav-item"><a class="top-nav-link" href="#"></a></li>   
+                <li class="top-nav-item"><a class="request-btn" href="#"></a></li>
+            </ul>
+         </nav>
+         <section class="intro-section" >
+            <h1 class="intro-title" data-aos="flip-left" ></h1>
+            <a class="download-btn" href="#"><i class="fas fa-download"></i><span class="btn-label"></span></a>
+         </section>
+     </header>
+     <!-- header -->
+
+     <!-- about -->
+    <section class="about-section" >
+        <h2 class="secondary-title" data-aos="fade-down-right"></h2>
+    </section>
+     <!-- about -->
+
+     <!-- quote -->
+    <section class="quote-section " data-aos="fade-up-left" >
+        <!-- icon -->
+        <span class="fa-stack fa-2x " >
+            <i class="fas fa-comment quote-icon fa-stack-2x"></i>
+            <i class="fas fa-quote-right quote-color fa-stack-1x"></i>
+        </span>
+
+    </section>
+     <!-- quote -->
+
+     <!-- contact -->
+    <section class="contact-section" data-aos="fade-up-right">
+
+        <form class="contact-form" action="" onsubmit="return checkForm(this);">
+
+
+            <div class="row">
+                <div class="col">
+                    <input id="contact_name" class="input-text" type="text">
+                </div>
+                <div class="col">
+                    <input id="contact_email" class="input-text"type="text">
+                </div>                
+            </div>
+            <div class="row">
+                <textarea id="contact_message" class="text-area" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="row">
+                <input class="submit-btn" type="submit">
+            </div>
+            
+        </form>
+        
+    </section>
+        <!-- contact -->
+
+            <!-- footer -->
+        <footer>
+            <nav>
+                <ul class="bottom-nav">
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"></a></li>
+                    <li class="bottom-nav-item"><a class="footer-link" href="#"></a></li>
+                </ul>
+            </nav>
+            <hr>
+            <p class="footer-disclaimer"></p>
+        </footer>
+            <!-- footer -->
+
+            <!-- javascript -->
+            <script src="./js/main.js"></script>
+            <!-- javascript -->
+
+</body>
+</html>
